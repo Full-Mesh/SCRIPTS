@@ -10,13 +10,13 @@ $newgtwy = "10.11.11.126"  # new default gateway
 $adapter = Get-NetAdapter  # extract NIC index
 Write-Host "Adapter index: $($adapter[0].ifIndex)"
 
+# delete the existing IP address and default gateway
 Remove-NetIPAddress -InterfaceIndex $($adapter[0].ifIndex) -Confirm:$false
 Remove-NetRoute -InterfaceIndex $($adapter[0].ifIndex) -Confirm:$false
 
 
 # set the static IP using the variables as inputs
 New-NetIPAddress -InterfaceIndex $adapter[0].ifIndex -IPAddress $newip -PrefixLength $newvlsm -DefaultGateway $newgtwy
-#Set-NetIPInterface -InterfaceAlias $adapter[0].Name -DefaultGateway $newgtwy 
 
 # change the hostname
 Rename-Computer -NewName $newname
