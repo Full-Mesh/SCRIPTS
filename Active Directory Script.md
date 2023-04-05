@@ -8,8 +8,8 @@ Install-ADDSForest `
 -CreateDnsDelegation:$false `
 -DatabasePath "C:\Windows\NTDS" `
 -DomainMode "WinThreshold" `
--DomainName "greengenius.com" `
--DomainNetbiosName "GREENGENIUS" `
+-DomainName "corp.greengenius.com" `
+-DomainNetbiosName "CORP" `
 -ForestMode "WinThreshold" `
 -InstallDns:$true `
 -LogPath "C:\Windows\NTDS" `
