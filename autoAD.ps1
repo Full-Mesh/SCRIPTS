@@ -5,8 +5,8 @@
 Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDA.tool~~~~0.0.1.0 -Online
 
 Import-Module ActiveDirectory 
-$ADUser = Import-Csv "C:\Users\Administrator\Documents\CP.csv"
-$password = "1234!@#$Aa"
+$ADUser = Import-Csv "C:\Users\Administrator\Documents\GreenGenius.csv"
+$password = "Password123!@#"
 
 foreach ($User in $ADUser) {
     New-ADUser `
