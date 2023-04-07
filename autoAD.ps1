@@ -9,7 +9,7 @@ Import-Module ActiveDirectory        # Imports the Active Directory PowerShell m
 $ADUser = Import-Csv "C:\Users\Administrator\Documents\GreenGenius.csv"          # Reads a CSV file containing the user account information to be created, and stores it in the $ADUser variable.
 $password = "Password123!@#"         # Sets the default password for all new user accounts.
 
-foreach ($User in $ADUser) {
+foreach ($User in $ADUser) {         # Loops through each row in the $ADUser variable and creates a new user account in Active Directory with the given attributes.
     New-ADUser `                     # calls the New-ADUser cmdlet to create a new user account in Active Directory.
     -Name "$($User.firstname) $($User.lastname)" `       # sets the full name of the new user account.
     -GivenName $User.firstname `     # sets the first name of the new user account.
