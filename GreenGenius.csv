@@ -1,0 +1,35 @@
+firstname,lastname,jobtitle,email,OU,password
+Olivia,Green,CEO,ogreen@greengenius.com,Executive Team,Password123!@#
+Jacob,Wong,COO,jwong@greengenius.com,Executive Team,Password123!@#
+Fatima,Mohammed,CTO,fmohammed@greengenius.com,Executive Team,Password123!@#
+David,Chen,CFO,dchen@greengenius.com,Executive Team,Password123!@#
+Michael,Kim,Chief Data Scientist,mkim@greengenius.com,Product & Engineering,Password123!@#
+Emily,Chen,Product Manager,echen@greengenius.com,Product & Engineering,Password123!@#
+Ethan,Jackson,Software Development Manager,ejackson@greengenius.com,Product & Engineering,Password123!@#
+Adiaha,Bassey,Software Engineer,abassey@greengenius.com,Product & Engineering,Password123!@#
+Penelope,Jones,Software Engineer,pjones@greengenius.com,Product & Engineering,Password123!@#
+Lisa,Wyatt,Software Engineer,lwyatt@greengenius.com,Product & Engineering,Password123!@#
+Kevin,Liu,Software Engineer,kliu@greengenius.com,Product & Engineering,Password123!@#
+Rachel,Johnson,Software Engineer,rjohnson@greengenius.com,Product & Engineering,Password123!@#
+Brian,Kim,Software Engineer,bkim@greengenius.com,Product & Engineering,Password123!@#
+Diana,Ramirez,UX Designer,dramirez@greengenius.com,Product & Engineering,Password123!@#
+Daniel,Wachowski,UI Designer,dwachowski@greengenius.com,Product & Engineering,Password123!@#
+Michelle,Wu,Front-End Developer,mwu@greengenius.com,Product & Engineering,Password123!@#
+Aaron,Wise,Front-End Developer,awise@greengenius.com,Product & Engineering,Password123!@#
+Daniel,Lee,Back-End Developer,dlee@greengenius.com,Product & Engineering,Password123!@#
+Chris,Chen,Back-End Developer,cchen@greengenius.com,Product & Engineering,Password123!@#
+Julia,Kim,QA Engineer,jkim@greengenius.com,Product & Engineering,Password123!@#
+Jessica,Santos,Technical Writer,jsantos@greengenius.com,Product & Engineering,Password123!@#
+Laura,Rodriguez,Chief Marketing Officer,lrodriguez@greengenius.com,Sales & Marketing,Password123!@#
+Jeffery,Winger,Head of Sales,jwinger@greengenius.com,Sales & Marketing,Password123!@#
+Samantha,Lee,Marketing Manager,slee@greengenius.com,Sales & Marketing,Password123!@#
+James,Kirk,Marketing Coordinator,jkirk@greengenius.com,Sales & Marketing,Password123!@#
+Tyler,Lee,Sales Representative,tlee@greengenius.com,Sales & Marketing,Password123!@#
+Keith,David,Sales Representative,kdavid@greengenius.com,Sales & Marketing,Password123!@#
+James,Lee,Head of Customer Success,jlee@greengenius.com,Customer Success,Password123!@#
+Grace,Stamile,Customer Success Manager,gstamile@greengenius.com,Customer Success,Password123!@#
+Eric,Chase,Customer Success Representative,echase@greengenius.com,Customer Success,Password123!@#
+Walter,Stone,Customer Success Representative,wstone@greengenius.com,Customer Success,Password123!@#
+Kelly,Chen,Lead Data Analyst,kchen@greengenius.com,Data & Analytics,Password123!@#
+Lily,Walker,Data Analyst,lwalker@greengenius.com,Data & Analytics,Password123!@#
+Laila,Diallo,Data Analyst,ldiallo@greengenius.com,Data & Analytics,Password123!@#
