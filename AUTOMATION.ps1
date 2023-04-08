@@ -120,6 +120,7 @@ Function Phase3 {
             -Enabled $true `
             -Path "OU=$($User.OU),DC=corp,DC=greengenius,DC=com" `
             -Title $User.jobtitle `
+            -Department $User.OU `
             -EmailAddress $User.email `
             -AccountPassword (ConvertTo-SecureString $password -AsPlainText -Force)
         $count++ # increase the counter
