@@ -152,12 +152,12 @@ $phase = $args[0] # save argument to the phase var
 switch  ($phase) {
     "1" {
          Write-Host "Executing Phase 1..."
-         Phase1 # launch phase 3 function
+         Phase1 # launch phase 1 function
          AddRunOnceReg -val "2"
         }
     "2" { 
          Write-Host "Executing Phase 2..."
-         Phase2 # launch phase 3 function
+         Phase2 # launch phase 2 function
          AddRunOnceReg -val "3" 
         }
     "3" {
